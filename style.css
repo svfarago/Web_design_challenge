@@ -10,39 +10,37 @@
 }
 
 h1 {
-  /* Put a 15-pixel margin at the bottom of the heading. */
   margin-bottom: 15px;
-  /* Change the size of your font to 60 pixels high. */
   font-size: 20px;
-  /* This will color the heading font white. */
-  color: rgb(44, 174, 197);
-  /* Align the text to the center of its enclosing element (e.g. div). */
+  color: rgb(45, 49, 49);
   text-align: center;
-  /* Underline the text. */
+  font-weight: bold ;
 }
 
+
+h2 {
+  color: rgb(44, 174, 197);
+}
 
 h3 {
   color: rgb(44, 174, 197);
 }
 
-
 p {
-  color: rgb(46, 45, 49);
+  color: rgb(33, 33, 34)
 }
 
 body{
   background: #fff; 
+  margin-bottom: 60px;
+  padding-bottom: 100px;
 }
- /* All img tags */
+
  img {
-  /* 
-    Center a block element in the middle of its enclosing tag.
-    When you use the "auto" rule on both left and right margins, 
-    your browser will do the math necessary to center a block element.
-    */
   margin-left: auto;
   margin-right: auto;
-  /* Block display (more on this later) */
-  display: block;
-}
+padding-right: 10px;
+ }
+
+
+

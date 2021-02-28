@@ -2,7 +2,7 @@
 * This project uses HTML, CSS, and Bootstrap.
 
 ## ReadMe File
-* Updated: February 25, 2021 | Created: February 25, 2021
+* Updated: February 27, 2021 | Created: February 25, 2021
 * Copyright: open source
 
 ### License ===========================
@@ -16,34 +16,41 @@
 
 ### Installation Instructions ==========
 * Applications used for the web visualization dashboard:
-- xx
-- xx
-- xx
-- GitBash terminal
+- Google Chrome browser
 - Visual Studio Code
+- GitBash terminal
 - Git Hub (to save versions and share code while in development)
 - Image viewer such as Microsoft Photos or Microsoft Paint
 
 * Similar applications may also work.
 
-* *May need to install Flask. From a command line, run: pip install flask
 
 
 ### List of Files ====================
 * \Web_design_challenge
-*    \Images
--       xxx
-*    \Resources
--        xxx
-*    README.md
+*    \resources
+-       cities.csv
+        equator.jpg
+        Latitude_cloudiness.png
+        Latitude_humidity.png
+        Latitude_temperature,png
+        Latitude_wind.png
+*   README.md
+*   cloud.html
+*   humidity.html
+*   index.html
+*   temperature.html
+*   wind.html
+*   style.css
 
 
 ### Operating Instructions =============
-* None.
+* Open index.html file in Google Chrome browser (or equivalent).
+- May need to download full list of files for web pages to work correctly.
 
 
 ### Data Set(s) =======================
-* See "List of Files" section above for list of .csv and .sqlite files associated with this project.
+* See "List of Files" section above for files associated with this project.
 
 
 ### Additional Resources =======================
@@ -52,7 +59,6 @@
 
 ###  Data Alterations =======================
 * None.
-* Analysis Impact: None.
 
 
 ###  Known Bugs =====================
@@ -60,16 +66,16 @@
 
 
 ### Troubleshooting ===============
-* "--" comments are used liberally throughout the code to run individual lines of code for additional testing/troubleshooting, and code notes/additional information.
+* "--" and "<!---->"  comments are used liberally throughout the code to run individual lines of code for additional testing/troubleshooting, and code notes/additional information.
 
 * Resources used to build and troubleshoot this code are listed below, in addition to help and code peer review from students, instructor, and TA's.
 
 * Web URLs:
+https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_navbar_fixed&stacked=h
+https://kids.britannica.com/kids/assembly/view/89100
 
 
-
-
-* URLs last used: February 25, 2021
+* URLs last used: February 27, 2021
 
 
 ###  Contact Information ===============
