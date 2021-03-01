@@ -27,7 +27,9 @@ h3 {
 }
 
 p {
-  color: rgb(33, 33, 34)
+  color: rgb(33, 33, 34);
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 body{
@@ -46,4 +48,15 @@ padding-right: 10px;
 background-color: darkgrey;
  }
 
+
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   color: rgb(53, 53, 53);
+   text-align: center;
+   font-size: small;
+}
 

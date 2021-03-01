@@ -2,7 +2,7 @@
 * This project uses HTML, CSS, and Bootstrap.
 
 ## ReadMe File
-* Updated: February 27, 2021 | Created: February 25, 2021
+* Updated: March 1, 2021 | Created: February 25, 2021
 * Copyright: open source
 
 ### License ===========================
@@ -71,11 +71,16 @@
 * Resources used to build and troubleshoot this code are listed below, in addition to help and code peer review from students, instructor, and TA's.
 
 * Web URLs:
-https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_navbar_fixed&stacked=h
 https://kids.britannica.com/kids/assembly/view/89100
+https://html.com/images/borders-and-image-links/
+https://getbootstrap.com/docs/5.0/getting-started/introduction/
+https://www.w3schools.com/howto/howto_css_fixed_footer.asp
+https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_navbar_fixed&stacked=h
 
 
-* URLs last used: February 27, 2021
+
+
+* URLs last used: March 1, 2021
 
 
 ###  Contact Information ===============
@@ -84,4 +89,4 @@ Colorado   United States
 
 ### Random Notes ===============
 This project uses HTML, CSS, and Bootstrap.
-Time to complete: approximately xx hours
+Time to complete: approximately 15 hours
