@@ -5,6 +5,17 @@
   <meta charset="utf-8">
  
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    @media screen and (max-width: 900px) and (min-width: 600px), (min-width: 1100px) {
+      div.example{
+        font-size: 50px;
+        padding: 50px;
+        border: 8px solid black;
+        background: yellow;
+      }
+    }
+    </style>
+
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
@@ -13,7 +24,7 @@
   
 </head>
 <body class="body-background">
-    <!-- Defining navbar and its components -->
+    <!-- Defining navbar with inverse color and components -->
     <nav class="navbar navbar-inverse">
       <div class="container-fluid">
         <div class="navbar-header">
@@ -42,7 +53,7 @@
           <h1 class="description-header">Summary: Latitude vs. Humidity</h1>
           <hr>
           <img src="resources/Latitude_humidity.png" height=400px alt="Latitude vs Humidity" class="pull-left">
-          <p>It is possible to have humidity greater than 100%. It's known as "supersaturation". This dataset looked for instances of humidity > 100% and found several instances of cities at but not above 100% humidity. Review the latitiude vs. temparature plot and use these two in conjunction with one another when analyzing the data.</p>
+          <p>It is possible to have humidity greater than 100%. It is known as "supersaturation". This dataset looked for instances of humidity > 100% and found several instances of cities at but not above 100% humidity. Review the latitiude vs. temperature plot and use these two in conjunction with one another when analyzing the data as there appears to be a relationship.</p>
         </div>
       </div>
   
