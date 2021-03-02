@@ -2,7 +2,6 @@
   height: 400px;
   padding: 20px;
   color: #fff;
-  background: deepskyblue;
 }
 
 .margin-top-80 {
@@ -19,11 +18,20 @@ h1 {
 
 
 h2 {
-  color: rgb(44, 174, 197);
+  margin-bottom: 15px;
+  font-size: 20px;
+  color: rgb(45, 49, 49);
+  text-align: left;
+  padding-left: 5%;
+  font-weight: bold ;
 }
 
 h3 {
   color: rgb(44, 174, 197);
+}
+
+h4 {
+  color: rgb(45, 49, 49);
 }
 
 p {

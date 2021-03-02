@@ -38,35 +38,42 @@
  <!-- End of nav -->
 ​
 ​<!-- Start container -->
-<div class="container-fluid">
-    <div class="col-lg-6 col-sm-8">
-      <div class="description">
-        <h1 class="description-header">Summary: Latitude vs. X</h1>
-        <hr>
-        <img src="resources/equator.jpg" height=200px alt="The Equator" class="pull-left">
-        <p>The purpose of this project is to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.</p>
-        <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.</p>
-      </div>
+
+<h2>Comparison: Latitude vs. X</h2>
+<hr>
+  <p>Click any plot to get an in-depth analysis.</p>
+  </br>
+
+<section class="row">
+  <div class="col col-lg-5 col-md-10 box">
+    <h4>vs. Cloudiness</h4>
+    <a href="cloud.html">
+      <img class= left_padding src="resources/Latitude_cloudiness.png">
+    </a>
+  </div>
+
+  <div class="col col-lg-5 col-md-10 box">
+      <h4>vs. Humidity</h4>
+      <a href="humidity.html">
+        <img class= right_padding src="resources/Latitude_humidity.png">
+      </a>
     </div>
 
+</section>
 
-<!---Container-->
-<div class="col-lg-4 col-md-10">
-  <h1 class=header>Visualizations</h1>
-  <hr>
-    <a href="cloud.html">
-    <img width=160 height=120 src="resources/Latitude_cloudiness.png" alt="link to cloudiness image" >
-    </a>
-    <a href="humidity.html">
-    <img width=160 height=120 src="resources/Latitude_humidity.png" alt="link to humidity image">
-    </a>
+<section class="row">
+  <div class="col col-lg-5 col-md-10 box">
+    <h4>vs. Temperature</h4>
     <a href="temperature.html">
-    <img width=160 height=120 src="resources/Latitude_temperature.png" alt="link to temperature image">
+      <img class= left_padding src="resources/Latitude_temperature.png">
     </a>
+  </div>
+  <div class="col col-lg-5 col-md-10 box">
+    <h4>vs. Wind Speed</h4>
     <a href="wind.html">
-    <img width=160 height=120 src="resources/Latitude_wind.png" alt="link to wind image">
+      <img class= right_padding src="resources/Latitude_wind.png">
     </a>
-</div>
+  </div>
 </section>
 
 <!--End of main area-->
